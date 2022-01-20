@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Header Footer </title>
+    <style>
+        *{
+            background-color: #292D32;
+        }
+        header {
+            height: auto;
+            width: 100%;
+            background-color: #292D32;
+            position :fixed;
+            top: 0;
+            z-index: 10;
+        }
+        .logo {
+            width: 100px;
+            margin-top: 13px;
+            margin-left: 20px;
+        }
+        .header-left {
+            float: left;
+        }
+        .name1 {
+            float: left;
+            margin-left: 100px;
+        }
+
+        .name1 a {
+            text-decoration: none;
+            line-height: 55px;
+            padding: 0 35px;
+            color: white;
+            display: block;
+            float: left;
+            font-family: sans-serif;
+        }
+        .name1 a:hover {
+            background-color: rgba(172, 113, 113, 0.3);
+        }
+
+        footer {
+            position: absolute;
+            height: auto;
+            width: 100%;
+            margin-top: 800px;
+            background-color: rgb(39, 43, 48);
+            position :fixed;
+            top: 0;
+            z-index: 10;
+        }
+        .logo2 {
+            width: 25px;
+            margin-top: 15px;
+        }
+        .header-right {
+            float: right;
+            margin-right: 40px;
+        }
+        .name2 {
+            float: left;
+            margin-right: 100px;
+        }
+
+        .name2 a {
+            text-decoration: none;
+            line-height: 55px;
+            padding: 0 35px;
+            color: white;
+            display: block;
+            float: left;
+            font-family: sans-serif;
+        }
+        .name3 {
+            float: left;
+            margin-left: 1196px;
+        }
+
+        .name3 a {
+            text-decoration: none;
+            line-height: 55px;
+            padding: 0 35px;
+            color: white;
+            display: block;
+            float: left;
+            font-family: sans-serif;
+        }
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 7px 5px;
+            cursor: pointer;
+            margin-left: 950px;
+        }
+        .button1 {
+            background-color: #292D32;
+            border-radius: 30px;
+            width: 200px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+        }
+        .content {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 50px;
+        }
+        .content .text {
+            position: relative;
+            top: 100px;
+            width: 50%;
+        }
+        .content .text h1{
+            display: inline-block;
+            font-size: 40px;
+            color: white;
+            margin-bottom: 15px;
+            font-family: sans-serif;
+        }
+        .content .text p{
+            color: white;
+            font-weight: 200;
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            font-family: sans-serif;
+        }
+        .content .img{
+            position: relative;
+            top: 100px;
+            right: 250px;
+        }
+    </style>
+    <script></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img class="logo" src="sinaucoding.png" alt="">
+            </div>
+            <div class="name1">
+                <a href="#"> HOME </a>
+                <a href="#"> ABOUT </a>
+                <a href="#"> CONTACT </a>
+            </div>
+            <button class="button button1"> JOIN US </button>
+        </div>
+    </header>
+
+        <div class="content">
+            <div class="text">
+                <h1> WELCOME TO SINAU KODING ACADEMY</h1>
+                <p> Sinau Koding adalah Program pelatihan Programmer dengan materi yang relevan pada kebutuhan industri saat ini. Materi yang ditawarkan diantaranya pemrograman website dan android.</p>
+            </div>
+            <div class="img">
+                <img src="flatdesign 1.png" alt="" class="sinau-koding">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="header-right">
+                <img class="logo2" src="twitter.png" alt="">
+            </div>
+            <div class="name2">
+                <a href="#"> SINAU KODING ACADEMY 2021 &copy;</a>
+            </div>
+            <div class="name3">
+                <a href="#"> JOIN US </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
